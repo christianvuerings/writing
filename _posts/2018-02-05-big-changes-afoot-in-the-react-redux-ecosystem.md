@@ -25,7 +25,7 @@ One of the major use cases for `componentWillMount` in particular is to run logi
 
 This is going to have a major impact on the community, Facebook's "move fast and break things" applied to open source, but the overall goal is laudable. React is ultimately moving towards an async-rendering world, and while the initial [Fiber][fiber] implementation makes async rendering possible, more work needs to be done in order to fully enable it. Unfortunately, it looks like there's still a lot more upheaval in the ecosystem to come before we get there.
 
-A codemod is planned for application developers, so it should (hopefully) be less painful for apps to make the switch. Lbirary authors are likely to be hit hardest. I'm already looking at what changes are required in order to get `brookjs` working with async rendering, as we definitely use some of the now-deprecated lifecycle hooks. We'll see if this turns out to be difficult.
+A codemod is planned for application developers, so it should (hopefully) be less painful for apps to make the switch. Library authors are likely to be hit hardest. I'm already looking at what changes are required in order to get `brookjs` working with async rendering, as we definitely use some of the now-deprecated lifecycle hooks. We'll see if this turns out to be difficult.
 
   [4.0beta1]: https://github.com/reactjs/redux/releases/tag/v4.0.0-beta.1
   [deprecated-methods]: https://github.com/reactjs/rfcs/pull/6
